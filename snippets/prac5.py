@@ -1,0 +1,1 @@
+f.rolling(window = 25)['DayGain'].apply(lambda x: len([x_i for x_i in x if x_i > 0])/len(x)).plot()

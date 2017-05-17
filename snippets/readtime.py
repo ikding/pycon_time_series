@@ -1,0 +1,1 @@
+data = pd.read_fwf('data/ao_monthly.txt', header = None, index_col = 0, parse_dates = [[0, 1]], infer_datetime_format = True)

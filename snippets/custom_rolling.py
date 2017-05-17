@@ -1,0 +1,1 @@
+df.rolling(window = 10, center = False).apply(lambda x: x[1]/x[2])[1:10]

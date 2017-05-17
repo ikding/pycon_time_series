@@ -1,0 +1,1 @@
+r = f.expanding().var()['Volume'].plot()

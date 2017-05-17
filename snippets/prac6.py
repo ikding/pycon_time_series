@@ -1,0 +1,1 @@
+f.resample('M').mean()['High'].plot()

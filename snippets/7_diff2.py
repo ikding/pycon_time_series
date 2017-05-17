@@ -1,0 +1,6 @@
+log_air_passengers_diff_2 = log_air_passengers_diff - log_air_passengers_diff.shift()
+fig, ax = plt.subplots()
+ax.set_color_cycle(['red', 'blue'])
+plt.plot(log_air_passengers_diff)
+plt.plot(log_air_passengers_diff_2)
+plt.legend(loc = 'best')
